@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="trending-banner">
+    <div class="trending-text">
+      <span class="trending-label">Trending:</span>
+      <marquee class="trending-marquee" behavior="scroll" direction="left">
+        Breaking News: Stock market hits new highs | New vaccine rollout announced | Tech giants report record earnings |
+        Global warming initiatives take center stage | Sports updates: Football finals this weekend
+      </marquee>
+    </div>
+  </div>
+  
+  <div class="navbar">
+    <table>
+      <tr class="nav1">
+        <div class="googleLogo">
+          <td>
+            <img id="googleimage" src="./google.png" alt="" />
+          </td>
+          <td id="newsheading">
+            <h1>News</h1>
+          </td>
+        </div>
+
+        <td>
+          <input type="text" placeholder="Search for news" class="input-with-icon" id="searchInput"/>
+          <button class="btn" id="search" style="cursor: pointer;">Search</button>
+        </td>
+      </tr>
+      <tr class="nav2">
+        <td style="margin-left: 10px" style="cursor: pointer;" id="Home">Home</td>
+        <td id="For you" style="cursor: pointer;">For you</td>
+        <td id="Following" style="cursor: pointer;">Following</td>
+        <td id="NewsShowcase" style="cursor: pointer;">NewsShowcase</td>
+        <td>|</td>
+        <td id="India" style="cursor: pointer;">India</td>
+        <td id="World" style="cursor: pointer;">World</td>
+        <td id="Local" style="cursor: pointer;">Local</td>
+        <td id="Business" style="cursor: pointer;">Business</td>
+        <td id="Technology" style="cursor: pointer;">Technology</td>
+        <td id="Entertainment" style="cursor: pointer;">Entertainment</td>
+        <td id="Sports" style="cursor: pointer;">Sports</td>
+        <td id="Science" style="cursor: pointer;">Science</td>
+        <td id="Health" style="cursor: pointer;">Health</td>
+      </tr>
+    </table>
+  </div>
+  <!--below navbar based on suggestion-->
+  <div class="live-section">
+    <div class="container">
+      <ul class="nav-links">
+        <li><a href="#">Watch Live 24/7</a></li>
+        <li><a href="#">24 TV &amp; Radio</a></li>
+        <li><a href="#">Web Shows</a></li>
+        <li><a href="#">24 News Store</a></li>
+      </ul>
+      <div class="clock-container">
+        <div id="time" class="clock"></div>
+        <div id="date" class="date"></div>
+      </div>
+    </div>
+  </div>
+<!--  -->
+  <div class="brief">
+    <h1 class="brief">Your Briefing</h1>
+  </div>
+  <div class="outer">
+    <div class="inner1">
+      <table class="leftbox">
+        <tr>
+          <td>
+            <p class="topStories">Top Stories</p>
+            <div class="card" id="article-1">
+              <img src="./1.jpg" alt="" class="ox" />
+              <h3>Source</h3>
+              <p style="height: 84px; width: 280px; margin-bottom: 10px" class="miniPara para">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut
+                repudiandae quasi, possimus esse neque magni libero error
+              </p>
+              <a href="" class="anchorMargin">Click to Read</a>
+            </div>
+          </td>
+          <td>
+            <div class="three">
+              <div id="article-2">
+                <p class="miniPara">title</p>
+
+                <a href="#">Click To Read</a>
+                <h6>source</h6>
+              </div>
+              <div id="article-3">
+                <p class="miniPara">title</p>
+
+                <a href="#">Click To Read</a>
+                <h6>source</h6>
+              </div>
+              <div id="article-4">
+                <p class="miniPara">title</p>
+
+                <a href="#">Click To Read</a>
+                <h6>source</h6>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="inner2">
+      <table>
+        <div class="rightPartOfLeft">
+          <p class="localNews">Local News</p>
+          <hr />
+
+          <tr>
+            <td>
+              <div class="ar-6">
+                <h4 class="src">Source</h4>
+                <a href="" class="handleAnchor" target="_blank">
+                  <p class="miniPara">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Dolorem officiis soluta asperiores ea, reiciendis quos nobis
+                    at aliquid illo tempore.
+                  </p>
+                </a>
+              </div>
+            </td>
+            <td>
+              <div class="ar-6img">
+                <img src="./2.jpg" alt="" class="minImage" />
+              </div>
+            </td>
+          </tr>
+        </div>
+
+        <tr>
+          <td>
+            <div class="ar-7">
+              <h4 class="src">Source</h4>
+              <a href="" class="handleAnchor" target="_blank">
+                <p class="miniPara">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Dolorem officiis soluta asperiores ea, reiciendis quos nobis
+                  at aliquid illo tempore.
+                </p>
+              </a>
+            </div>
+          </td>
+          <td>
+            <div class="ar-7img">
+              <img src="./2.jpg" alt="" class="minImage" />
+            </div>
+          </td>
+        </tr>
+
+
+        <tr>
+          <td>
+            <div class="ar-8">
+              <h4 class="src">Source</h4>
+              <a href="" class="handleAnchor" target="_blank">
+                <p class="miniPara">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Dolorem officiis soluta asperiores ea, reiciendis quos nobis
+                  at aliquid illo tempore.
+                </p>
+              </a>
+            </div>
+          </td>
+          <td>
+            <div class="ar-8img">
+              <img src="./2.jpg" alt="" class="minImage" />
+            </div>
+          </td>
+        </tr>
+
+    </div>
+    </table>
+  </div>
+  </div>
+  <div class="lower content">
+    
+  </div>
+  <div class="d-flex  my-4">
+    <button class="btn btn-primary prev" id="prev">&lt; Previous Page</button>
+    <button class="btn btn-primary next" id="next">Next Page &gt;</button>
+  </div>
+  <script src="script.js"></script>
+  <!-- Link to your external JS file if using an external file -->
+</body>
+
+</html>
